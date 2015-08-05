@@ -8,21 +8,25 @@ block content
     link(rel='stylesheet', href='/stylesheets/buttonHover.css')
   body  
     div(class='container')
-      p 
-        button(class='btn btn-music icon-music')
-          span Music
-      p 
-        button(class='btn btn-food icon-spoon-knife')
-          span Food
-    
-    
-    
-    
-    
-    
-    
-    
-    
+      section(id='btns-click')
+        p 
+          button(class='btn btn-music icon-music')
+            span Music
+        p 
+          button(class='btn btn-food icon-spoon-knife')
+            span Food
+        p 
+          button(class='btns btns-7 btns-go btns-icon-only icon-arrow-right2')
+            span GO! 
+        p 
+          button(class='btns btns-7 btns-login icon-key')
+            span Login
+        p 
+          button(class='btns btns-7 btns-signup icon-checkmark')
+            span Sign-Up
+    script(src='../javascripts/buttonClick.js')
+    script(src='../javascripts/classie.js')
+  
   //-   script(src ='../javascripts/modernizer.js')
   //- 
   //- div(class='container')  
